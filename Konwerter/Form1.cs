@@ -75,6 +75,57 @@ namespace Konwerter
             MessageBox.Show("koniec");
 
         }
+        public void ExtractPage(string sourcePdfPath, string outputPdfPath, int pageNumber)
+        {
+            iTextSharp.text.pdf.PdfReader reader = null;
+            iTextSharp.text.Document document = null;
+            iTextSharp.text.pdf.PdfCopy pdfCopyProvider = null;
+            iTextSharp.text.pdf.PdfImportedPage importedPage = null;
+
+            try
+            {
+                // Intialize a new PdfReader instance with the contents of the source Pdf file:
+                reader = new iTextSharp.text.pdf.PdfReader(sourcePdfPath);
+
+               var npages = reader.NumberOfPages;
+                // Capture the correct size and orientation for the page:
+                document = new iTextSharp.text.Document(reader.GetPageSizeWithRotation(pageNumber));
+
+                // Initialize an instance of the PdfCopyClass with the source 
+                // document and an output file stream:
+                pdfCopyProvider = new iTextSharp.text.pdf.PdfCopy(document,
+                    new System.IO.FileStream(outputPdfPath, System.IO.FileMode.Create));
+
+                document.Open();
+
+                // Extract the desired page number:
+                importedPage = pdfCopyProvider.GetImportedPage(reader, pageNumber);
+                pdfCopyProvider.AddPage(importedPage);
+                document.Close();
+                reader.Close();
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ExtractPage(@"C:\Users\saleksak.OPGKLUBLIN\Desktop\P.0615.2016.169\L5.pdf", @"C:\Users\saleksak.OPGKLUBLIN\Desktop\P.0615.2016.169\1.pdf", 40);
+        }
+       
+
+        
+
+
+ 
+
+        
+
+
       
         
     }
