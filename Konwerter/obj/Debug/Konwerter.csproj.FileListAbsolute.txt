@@ -10,3 +10,15 @@ C:\Users\saleksak.OPGKLUBLIN\Dropbox\C#\Konwertor\Konwerter\Konwerter\obj\Debug\
 C:\Users\saleksak.OPGKLUBLIN\Dropbox\C#\Konwertor\Konwerter\Konwerter\bin\Debug\itextsharp.dll
 C:\Users\saleksak.OPGKLUBLIN\Dropbox\C#\Konwertor\Konwerter\Konwerter\bin\Debug\itextsharp.pdfa.dll
 C:\Users\saleksak.OPGKLUBLIN\Dropbox\C#\Konwertor\Konwerter\Konwerter\bin\Debug\itextsharp.xtra.dll
+E:\Git\Testowe\testowanie2\Konwerter\bin\Debug\Konwerter.exe.config
+E:\Git\Testowe\testowanie2\Konwerter\obj\Debug\Konwerter.exe
+E:\Git\Testowe\testowanie2\Konwerter\obj\Debug\Konwerter.pdb
+E:\Git\Testowe\testowanie2\Konwerter\bin\Debug\Konwerter.exe
+E:\Git\Testowe\testowanie2\Konwerter\bin\Debug\Konwerter.pdb
+E:\Git\Testowe\testowanie2\Konwerter\bin\Debug\itextsharp.dll
+E:\Git\Testowe\testowanie2\Konwerter\bin\Debug\itextsharp.pdfa.dll
+E:\Git\Testowe\testowanie2\Konwerter\bin\Debug\itextsharp.xtra.dll
+E:\Git\Testowe\testowanie2\Konwerter\obj\Debug\Konwerter.csprojResolveAssemblyReference.cache
+E:\Git\Testowe\testowanie2\Konwerter\obj\Debug\Konwerter.Form1.resources
+E:\Git\Testowe\testowanie2\Konwerter\obj\Debug\Konwerter.Properties.Resources.resources
+E:\Git\Testowe\testowanie2\Konwerter\obj\Debug\Konwerter.csproj.GenerateResource.Cache

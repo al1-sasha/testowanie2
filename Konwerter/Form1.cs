@@ -34,15 +34,13 @@ namespace Konwerter
             var dir = new System.IO.DirectoryInfo(path);
             foreach (string File in Directory.GetFiles(path, TB_Rosrz.Text, SearchOption.AllDirectories))
             {
-                listBox1.Items.Add(File);
-               
+                listBox1.Items.Add(File);               
             }
             
         }
 
         private void B_jpg2pdf_Click(object sender, EventArgs e)
          
-
         {
             for (int i = 0; i <= listBox1.Items.Count -1; i++)
           {

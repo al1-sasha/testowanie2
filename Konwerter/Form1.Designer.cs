@@ -33,6 +33,7 @@
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.TB_Rosrz = new System.Windows.Forms.TextBox();
             this.B_jpg2pdf = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // B_OpenDirectory
@@ -65,7 +66,7 @@
             // 
             // B_jpg2pdf
             // 
-            this.B_jpg2pdf.Location = new System.Drawing.Point(30, 84);
+            this.B_jpg2pdf.Location = new System.Drawing.Point(30, 137);
             this.B_jpg2pdf.Name = "B_jpg2pdf";
             this.B_jpg2pdf.Size = new System.Drawing.Size(87, 23);
             this.B_jpg2pdf.TabIndex = 3;
@@ -73,11 +74,21 @@
             this.B_jpg2pdf.UseVisualStyleBackColor = true;
             this.B_jpg2pdf.Click += new System.EventHandler(this.B_jpg2pdf_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(30, 193);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(808, 621);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.B_jpg2pdf);
             this.Controls.Add(this.TB_Rosrz);
             this.Controls.Add(this.listBox1);
@@ -96,6 +107,7 @@
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
         private System.Windows.Forms.TextBox TB_Rosrz;
         private System.Windows.Forms.Button B_jpg2pdf;
+        private System.Windows.Forms.Button button1;
     }
 }
 
